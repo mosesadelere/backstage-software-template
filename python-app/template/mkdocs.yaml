@@ -1,0 +1,13 @@
+site_name: '${{values.app_name}}'
+site_description: 'Main documentation for Backstage python application'
+repo_url: https://github.com/mosesadelere/${{values.app_name}}
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+  
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - Overview: 'docs/index.md'
+      

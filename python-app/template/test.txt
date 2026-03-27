@@ -1,4 +1,0 @@
-Hello, This is a test file
-
-App's name is: ${{values.app_name}}
-App's environment is: ${{values.app_env}}
